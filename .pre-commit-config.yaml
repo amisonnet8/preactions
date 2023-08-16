@@ -1,0 +1,13 @@
+repos:
+  - repo: local
+    hooks:
+      - id: lint
+        name: lint
+        pass_filenames: false
+        entry: nox -s lint
+        language: system
+      - id: tests
+        name: tests
+        pass_filenames: false
+        entry: nox -s tests
+        language: system

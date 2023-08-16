@@ -12,3 +12,7 @@ def test_xxxx3() -> None:
 
 def test_xxxx4() -> None:
     assert 20 == 20
+
+
+def test_xxxx5() -> None:
+    assert 30 == 20
